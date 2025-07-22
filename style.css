@@ -141,3 +141,112 @@ main {
 }
 
 /* logos section end */
+
+/* Popular Collection Section start */
+.popular-collection {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.popular-collection-1 h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #3A3A3A;
+    font-family: "Poppins", sans-serif;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.popular-collection-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.popular-collection-card {
+    background: #f1fcf3;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: -2px -2px 5px 3px rgb(233, 238, 233);
+}
+
+.popular-collection-card:hover {
+    background: #fcf3fa;
+}
+
+.popular-collection-card-1 {
+    height: auto;
+    width: 100%;
+}
+
+.popular-collection-card-1 img {
+    height: 200px;
+    width: 100%;
+    border: 2px solid yellowgreen;
+    border-radius: 10px;
+}
+
+.popular-collection-card-2 {
+    padding: 10px;
+}
+
+.popular-collection-card-2 h1 {
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #18191F;
+    font-family: "Poppins", sans-serif;
+}
+
+.popular-collection-card-2 h2 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.87);
+    line-height: 10%;
+    letter-spacing: 4px;
+    font-family: "Inter", sans-serif;
+}
+
+.popular-collection-card-2 span {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #5E6366;
+    font-family: "Roboto", sans-serif;
+    margin-left: 10px;
+}
+
+.popular-collection-card-2 p {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #787885;
+    font-family: "Inter", sans-serif;
+    line-height: 120%;
+    letter-spacing: 20%;
+}
+
+.popular-collection-card-2 i {
+    color: #FB8200;
+}
+
+.popular-collection-3 {
+    text-align: end;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #E02C6D;
+    font-family: "Poppins", sans-serif;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.popular-collection-3 span:hover {
+    color: #fdfdfe;
+    background-color: #FB8200;
+    border: 1px solid yellowgreen;
+    padding: 0.5rem 1rem;
+    border-radius: 10px 18px;
+}
+
+/* Popular Collection Section end */
