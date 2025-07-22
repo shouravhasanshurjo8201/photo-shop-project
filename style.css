@@ -250,3 +250,66 @@ main {
 }
 
 /* Popular Collection Section end */
+
+
+/* Featured section start  */
+.Featured-section {
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 5rem;
+    align-items: center;
+}
+
+.Featured-section-1 {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+}
+
+.Featured-section-1 img {
+    width: 80%;
+    height: 100%;
+    border: 2px solid yellowgreen;
+    border-radius: 1rem;
+}
+
+.Featured-section-2 {
+    width: 100%;
+    height: auto;
+}
+
+.Featured-section-2 h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    color: #0A0826;
+}
+
+.Featured-section-2 p {
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    color: #6C6C6C;
+}
+
+.Featured-section-2 button {
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+    background-color: brown;
+    border: none;
+    padding: 1rem 2.5rem;
+    border-radius: 10px;
+}
+
+.Featured-section-2 button:hover {
+    background-color: #E02C6D;
+}
+
+/* Featured-section end  */
+/* main section End  */
+
+
